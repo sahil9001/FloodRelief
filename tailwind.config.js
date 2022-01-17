@@ -8,6 +8,9 @@ module.exports = {
         poppins: ["Poppins", 'sans-serif'],
         roboto : ["Roboto", "sans-serif"],
       },
+      colors : {
+        bluenew : '#0071CD',
+      }
     },
   },
   plugins: [],
