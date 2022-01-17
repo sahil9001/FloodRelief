@@ -3,13 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@amcharts/amcharts5": "^5.0.21",
+    "@amcharts/amcharts5-fonts": "^5.0.1",
+    "@amcharts/amcharts5-geodata": "^5.0.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "number-shortener": "^1.0.1",
     "react": "^17.0.2",
+    "react-countup": "^6.1.0",
     "react-dom": "^17.0.2",
     "react-fade-in": "^2.0.1",
     "react-scripts": "5.0.0",
+    "react-simple-maps": "^2.3.0",
+    "react-tooltip": "^4.2.21",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
