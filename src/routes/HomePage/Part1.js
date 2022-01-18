@@ -41,7 +41,7 @@ export default class Part1 extends Component {
               <div className="mx-auto my-auto py-24">
                 <FadeIn delay={100}>
                   <img
-                    src={require("../../src/assets/logo.jpg")}
+                    src={require("../../assets/anti-logo.jpg")}
                     className="w-64"
                     alt="flood"
                   />

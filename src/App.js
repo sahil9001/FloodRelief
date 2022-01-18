@@ -1,18 +1,24 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Part1 from "./components/Part1";
-import Part2 from "./components/Part2";
 import Footer from "./components/Footer";
-import Part3 from "./components/Part3";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./routes/HomePage/Home";
+import Dashboard from "./routes/Dashboard/Dashboard";
+import About from "./routes/About/About";
+import Helpline from "./routes/Helpline/Helpline";
+
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <NavBar />
-      <Part1 />
-      <Part2 />
-      <Part3 />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/helpline" element={<Helpline />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

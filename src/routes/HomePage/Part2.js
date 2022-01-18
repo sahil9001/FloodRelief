@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import FadeIn from "react-fade-in";
 import CountUp from "react-countup";
-import Map from "../components/Map";
+import Map from "../../components/Map";
 // const shortNum = require("number-shortener");
 export default class Part2 extends Component {
   render() {
@@ -12,7 +12,6 @@ export default class Part2 extends Component {
             <p className="text-5xl font-semibold font-poppins text-center">
               Flood risk across India
             </p>
-            <Map />
 
             <div className="mt-24 grid grid-cols-3 gap-8">
               <div className="mx-auto ">
@@ -41,6 +40,7 @@ export default class Part2 extends Component {
                 </p>
               </div>
             </div>
+            <Map />
           </FadeIn>
         </div>
       </div>
