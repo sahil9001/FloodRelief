@@ -9,6 +9,7 @@ module.exports = {
       },
       colors: {
         bluenew: "#0071CD",
+        darkblue : '#005396',
       },
     },
   },
