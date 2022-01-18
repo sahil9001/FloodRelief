@@ -65,7 +65,7 @@ const getHeatMapData = () => {
     { id: "HP", state: "Himachal Pradesh", value: 0 },
     { id: "JH", state: "Jharkhand", value: 0 },
     { id: "KA", state: "Karnataka", value: 0 },
-    { id: "KL", state: "Kerala", value: 0.87 },
+    { id: "KL", state: "Kerala", value: 1.39 },
     { id: "MP", state: "Madhya Pradesh", value: 0 },
     { id: "MH", state: "Maharashtra", value: 0 },
     { id: "MN", state: "Manipur", value: 0 },

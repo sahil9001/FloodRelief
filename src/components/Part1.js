@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FadeIn from "react-fade-in";
 // import styles from "../src/styles/Part1.css"
+// import { ReactComponent as Svg } from "../assets/asset.svg";
 export default class Part1 extends Component {
   render() {
     return (
@@ -42,6 +43,7 @@ export default class Part1 extends Component {
                   <img
                     src={require("../../src/assets/logo.jpg")}
                     className="w-64"
+                    alt="flood"
                   />
                 </FadeIn>
               </div>
