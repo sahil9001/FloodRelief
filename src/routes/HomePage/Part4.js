@@ -14,7 +14,7 @@ export default class Part4 extends Component {
                 <p
                   className="
               text-white
-              font-poppins
+              font-inter
               text-center text-3xl
               sm:text-5xl
               font-semibold
@@ -28,7 +28,7 @@ export default class Part4 extends Component {
                   className="
               color-green
               text-white
-              font-poppins
+              font-inter
               text-center text-lg
               sm:text-xl
               font-medium
@@ -42,7 +42,7 @@ export default class Part4 extends Component {
                   <p
                     className="
                 color-subheading
-                font-poppins
+                font-inter
                 text-7xl
                 font-extrabold
                 text-center
@@ -54,7 +54,7 @@ export default class Part4 extends Component {
                   <p
                     className="
                 text-white
-                font-poppins
+                font-inter
                 text-lg
                 sm:text-firstpagecardheading
                 text-center
@@ -71,7 +71,7 @@ export default class Part4 extends Component {
                   <p
                     className="
                 color-subheading
-                font-poppins
+                font-inter
                 text-7xl
                 font-extrabold
                 text-center
@@ -83,7 +83,7 @@ export default class Part4 extends Component {
                   <p
                     className="
                 text-white
-                font-poppins
+                font-inter
                 text-lg
                 sm:text-firstpagecardheading
                 text-center
@@ -100,7 +100,7 @@ export default class Part4 extends Component {
                   <p
                     className="
                 color-subheading
-                font-poppins
+                font-inter
                 text-7xl
                 font-extrabold
                 text-center
@@ -112,7 +112,7 @@ export default class Part4 extends Component {
                   <p
                     className="
                 text-white
-                font-poppins
+                font-inter
                 text-lg
                 sm:text-firstpagecardheading
                 text-center
@@ -127,7 +127,7 @@ export default class Part4 extends Component {
                 <button
                   class="
               text-white
-              font-poppins
+              font-inter
               text-center text-xl
               font-medium
               mx-auto

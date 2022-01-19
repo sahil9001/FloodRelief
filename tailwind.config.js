@@ -6,6 +6,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         heebo: ["Heebo", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         bluenew: "#0071CD",

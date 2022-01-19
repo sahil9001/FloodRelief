@@ -4,7 +4,7 @@ export default class Dashboard extends Component {
   render() {
     return (
       <div className="container mx-auto my-12">
-        <p className="font-poppins text-3xl font-bold">Dashboard</p>
+        <p className="font-inter text-3xl font-bold">Dashboard</p>
       </div>
     );
   }

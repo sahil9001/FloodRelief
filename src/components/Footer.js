@@ -18,23 +18,23 @@ function Footer() {
                         alt="flood"
                         className="w-12 my-4 mx-2"
                       />
-                      <span className="my-auto  text-2xl font-semibold font-poppins text-white tracking-wider">
+                      <span className="my-auto  text-2xl font-semibold font-inter text-white tracking-wider">
                         Flood Contour
                       </span>
                     </div>
                   </Link>
                   <Link to="/dashboard">
-                    <p className=" text-lg leading-loose font-medium tracking-wide text-white font-poppins ">
+                    <p className=" text-lg leading-loose font-medium tracking-wide text-white font-inter ">
                       Dashboard
                     </p>
                   </Link>
                   <Link to="/helpline">
-                    <p className=" text-lg leading-loose font-medium tracking-wide text-white font-poppins">
+                    <p className=" text-lg leading-loose font-medium tracking-wide text-white font-inter">
                       Helpline Numbers
                     </p>
                   </Link>
                   <Link to="/about">
-                    <p className=" text-lg leading-loose font-medium tracking-wide text-white font-poppins">
+                    <p className=" text-lg leading-loose font-medium tracking-wide text-white font-inter">
                       About Us
                     </p>
                   </Link>
@@ -42,25 +42,25 @@ function Footer() {
               </div>
               <div className="mx-auto py-4">
                 <div className="flex flex-col mx-auto">
-                  <p className="my-6 text-2xl text-white font-poppins tracking-wider font-semibold text-center">
+                  <p className="my-6 text-2xl text-white font-inter tracking-wider font-semibold text-center">
                     Made By
                   </p>
-                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-poppins  text-center">
+                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-inter  text-center">
                     Prakhar Asaiya
                   </p>
-                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-poppins  text-center">
+                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-inter  text-center">
                     Sahil Silare
                   </p>
-                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-poppins  text-center">
+                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-inter  text-center">
                     Siddharth Mishra
                   </p>
-                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-poppins  text-center">
+                  <p className="text-lg leading-loose font-medium tracking-wide text-white font-inter  text-center">
                     Amitesh Agrawal
                   </p>
                 </div>
               </div>
               <div className="mx-auto py-4">
-                <p className="my-6 text-2xl text-white font-poppins font-semibold text-center ">
+                <p className="my-6 text-2xl text-white font-inter font-semibold text-center ">
                   Meet Us at
                 </p>
                 <div className="mx-auto">

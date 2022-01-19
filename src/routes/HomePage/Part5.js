@@ -6,7 +6,7 @@ export default class Part5 extends Component {
     return (
       <div className="bg-gray-100 ">
         <div className="container mx-auto py-12">
-          <p className="font-poppins font-semibold text-5xl pb-12">
+          <p className="font-inter font-semibold text-5xl pb-12">
             Precautionary Measures
           </p>
           <div className="grid grid-cols-2 gap-16">
