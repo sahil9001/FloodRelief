@@ -32,12 +32,12 @@ export default class About extends Component {
             <AboutCard
               name="Sahil Silare"
               occupation="Fullstack Developer & Designer"
-              url={require("../../assets/siddharth.jpeg")}
+              url={require("../../assets/sahil.jpeg")}
             />
             <AboutCard
               name="Amitesh Agrawal"
               occupation="Team Member"
-              url={require("../../assets/siddharth.jpeg")}
+              url={require("../../assets/amitesh.jpeg")}
             />
           </div>
         </div>
