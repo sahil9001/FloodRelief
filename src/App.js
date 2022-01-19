@@ -11,12 +11,14 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
+      {/* <div className="flex flex-col h-screen"> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/helpline" element={<Helpline />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      {/* </div> */}
       <Footer />
     </BrowserRouter>
   );

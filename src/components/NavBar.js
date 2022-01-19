@@ -6,12 +6,13 @@ export default class NavBar extends Component {
   render() {
     return (
       <FadeIn>
+        {/* <div className="fixed"> */}
         <div className="container mx-auto py-2">
           <FadeIn delay={100}>
             <nav className="flex flex-row">
               <Link to="/">
                 <div className="flex flex-row">
-                  <img src={test} className="w-28" alt="logo" />
+                  <img src={test} className="w-12 my-4 mx-2" alt="logo" />
                   <p className="text-2xl font-poppins font-semibold my-auto tracking-wider">
                     Flood Contour
                   </p>
@@ -37,6 +38,7 @@ export default class NavBar extends Component {
             </nav>
           </FadeIn>
         </div>
+        {/* </div> */}
       </FadeIn>
     );
   }

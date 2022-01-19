@@ -9,7 +9,11 @@ module.exports = {
       },
       colors: {
         bluenew: "#0071CD",
-        darkblue : '#005396',
+        darkblue: "#005396",
+        part7: "#1F2532",
+      },
+      letterSpacing: {
+        morewider: "0.15em",
       },
     },
   },

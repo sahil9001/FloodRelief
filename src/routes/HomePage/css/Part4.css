@@ -1,0 +1,22 @@
+.color-green {
+    color: #01cb63;
+    padding: 10px;
+  }
+  .color-subheading {
+    color: #0d66ff;
+  }
+  .custom-margin {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  .custom-padding-x-1 {
+    padding-left: 112.95px;
+    padding-right: 112.95px;
+  }
+  .custom-padding-y-1 {
+    padding-top: 62.95px;
+    padding-bottom: 62.95px;
+  }
+  .custom-margin-top-1 {
+    margin-top: 60px;
+  }

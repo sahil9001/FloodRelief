@@ -15,7 +15,7 @@ export default class Part1 extends Component {
                     Flood relief made easy with flood contour technology
                   </p>
                   <div className="flex flex-col py-4">
-                    <ul class="list-disc list-inside text-white">
+                    <ul className="list-disc list-inside text-white">
                       <li className="my-2">
                         <span className="font-poppins text-white tracking-wide">
                           Flood detection mechanism
