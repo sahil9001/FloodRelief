@@ -47,7 +47,6 @@ export default class Part4 extends Component {
                 text-7xl
                 font-extrabold
                 text-center
-                sm:text-left
               "
                   >
                     1
@@ -76,7 +75,6 @@ export default class Part4 extends Component {
                 text-7xl
                 font-extrabold
                 text-center
-                sm:text-left
               "
                   >
                     2
