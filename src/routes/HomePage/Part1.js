@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import FadeIn from "react-fade-in";
-// import styles from "../src/styles/Part1.css"
-// import { ReactComponent as Svg } from "../assets/asset.svg";
+import { Link } from "react-router-dom";
+import "./css/Part1.css";
+import { ReactComponent as Svg } from "../../assets/home.svg";
 export default class Part1 extends Component {
   render() {
     return (
@@ -29,22 +30,24 @@ export default class Part1 extends Component {
                     </ul>
                   </div>
                   <div className="flex flex-row gap-4">
-                    <button className="w-1/3 py-4 border-2 border-white my-4 hover:border-bluenew hover:bg-white hover:text-bluenew font-roboto font-semibold text-white color-text text-sm tracking-morewider ">
+                    <Link
+                      to="/dashboard"
+                      className="w-1/3 text-center py-4 border-2 border-white my-4 hover:border-bluenew hover:bg-white hover:text-bluenew font-roboto font-semibold text-white color-text text-sm tracking-morewider "
+                    >
                       DASHBOARD
-                    </button>
-                    <button className="w-1/3 py-4 border-2 border-white my-4 hover:border-bluenew hover:bg-white hover:text-bluenew font-roboto font-semibold text-white color-text text-sm tracking-morewider ">
+                    </Link>
+                    <Link
+                      to="/helpline"
+                      className="w-1/3 text-center py-4 border-2 border-white my-4 hover:border-bluenew hover:bg-white hover:text-bluenew font-roboto font-semibold text-white color-text text-sm tracking-morewider "
+                    >
                       HELPLINE NUMBERS
-                    </button>
+                    </Link>
                   </div>
                 </FadeIn>
               </div>
               <div className="mx-auto my-auto py-24">
                 <FadeIn delay={100}>
-                  <img
-                    src={require("../../assets/anti-logo.jpg")}
-                    className="w-64"
-                    alt="flood"
-                  />
+                  <Svg className="img-2" />
                 </FadeIn>
               </div>
             </div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../HomePage/css/Part4.css";
 import { ReactComponent as Svg1 } from "../../assets/Path 6773.svg";
 import { ReactComponent as Svg2 } from "../../assets/Path 6774.svg";
+import { Link } from "react-router-dom";
 import FadeIn from "react-fade-in";
 export default class Part4 extends Component {
   render() {
@@ -123,9 +124,10 @@ export default class Part4 extends Component {
                   </p>
                 </div>
               </div>
-              <div class="flex-1 mx-auto">
-                <button
-                  class="
+              <div class="flex-1 mx-auto mt-24">
+                <Link
+                  to="/dashboard"
+                  className="
               text-white
               font-inter
               text-center text-xl
@@ -142,7 +144,7 @@ export default class Part4 extends Component {
                   // @click="gotoSupplierSignUp"
                 >
                   Go to Dashboard
-                </button>
+                </Link>
               </div>
             </div>
           </div>
