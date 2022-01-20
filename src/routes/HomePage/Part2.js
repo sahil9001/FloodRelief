@@ -13,7 +13,7 @@ export default class Part2 extends Component {
               Flood risk across India
             </p>
 
-            <div className="mt-24 grid grid-cols-3 gap-8">
+            <div className="mt-12 grid grid-cols-3 gap-8">
               <div className="mx-auto ">
                 <p className="text-6xl font-inter font-semibold text-center">
                   <CountUp end={10} duration={2.75} />+<span></span>
