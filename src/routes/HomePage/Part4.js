@@ -58,7 +58,6 @@ export default class Part4 extends Component {
                 text-lg
                 sm:text-firstpagecardheading
                 text-center
-                sm:text-left
               "
                   >
                     Go to Dashboard
@@ -87,13 +86,15 @@ export default class Part4 extends Component {
                 sm:text-firstpagecardheading
                 text-center
                 sm:text-left
+                mt-4
+                ml-4
               "
                   >
                     Allow Location Access
                   </p>
                 </div>
                 <div className="flex-1 hidden lg:block transform translate-y-4">
-                  <Svg2 className="mx-auto" />
+                  <Svg2 className="mx-auto ml-4" />
                 </div>
                 <div className="flex-1 py-4 lg:py-0">
                   <p
