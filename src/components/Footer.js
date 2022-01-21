@@ -72,7 +72,6 @@ function Footer() {
                     loading="lazy"
                     title="map"
                   ></iframe>
-                  {/* <iframe src="https://maps.googleapis.com/maps/api/staticmap?center=sedona&zoom=14&size=600x600&maptype=terrain&style=feature:all|visibility:off&style=feature:water|element:geometry|visibility:on&style=feature:landscape.natural|visibility:on|color:0xffffff&key=YOUR_API_KEY"></iframe> */}
                 </div>
               </div>
             </div>
