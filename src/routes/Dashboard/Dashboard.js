@@ -2,16 +2,9 @@ import React, { Component } from "react";
 import Footer from "../../components/Footer";
 import FadeIn from "react-fade-in";
 import Leafletmap from "../leafletmap/Leafletmap";
+import { Redirect } from "react-router-dom";
 export default class Dashboard extends Component {
   render() {
-    return (
-      <FadeIn>
-        <div className="container mx-auto my-12">
-          <p className="font-inter text-3xl font-bold">Dashboard</p>
-          <Leafletmap />
-        </div>
-        <Footer />
-      </FadeIn>
-    );
+    return <Redirect to="www.google.com" />;
   }
 }
